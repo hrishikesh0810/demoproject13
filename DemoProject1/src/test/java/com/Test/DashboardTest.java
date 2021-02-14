@@ -12,7 +12,7 @@ public class DashboardTest {
 	DashboardPage dp;
 	@BeforeMethod
 	public void setUp() {
-		System.setProperty("webdriver.chrome.drive", "D:/chromedriver.exe");
+		System.setProperty("webdriver.chrome.drive", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("file:///E:/Selenium%20Programs/Offline%20Website/Offline%20Website/pages/examples/dashboard.html");
 		
