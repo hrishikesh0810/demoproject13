@@ -15,7 +15,7 @@ public class LoginTest {
 	@BeforeMethod
 	public void setUp() {
 	 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-	 		driver = new ChromeDriver();// browser open
+	 		WebDriver driver = new ChromeDriver();// browser open
 			driver.get("file:///E:/Selenium%20Programs/Offline%20Website/Offline%20Website/index.html");
 		
 		lp=new LoginPage(driver);
