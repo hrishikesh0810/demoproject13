@@ -5,6 +5,7 @@
     <classes>
       <class name="com.Test.LoginTest"/>
       
+     
  	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
