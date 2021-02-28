@@ -10,8 +10,8 @@ import com.Page.LoginPage;
 
 public class LoginTest {
 
-	WebDriver driver;
-	LoginPage lp;
+	public WebDriver driver;
+	public LoginPage lp;
 	@BeforeMethod
 	public void setUp() {
 	 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
